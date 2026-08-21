@@ -1,0 +1,9 @@
+# Runtime dependencies, pinned so the Cloud Function in Phase 2 installs
+# exactly what runs locally today.
+pytrends-modern==0.2.12
+google-api-python-client==2.198.0
+pandas==3.0.5
+python-dotenv==1.2.2
+
+# Development only
+pytest>=8.0
